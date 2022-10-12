@@ -1,0 +1,17 @@
+@import "../../variables";
+
+.Header {
+  display: flex;
+  justify-content: space-around;
+  height: 50px;
+  width: 100%;
+  background-color: $primary-color;
+  color: $secondary-color;
+
+  .name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: yellow;
+  }
+}

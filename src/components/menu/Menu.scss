@@ -1,0 +1,12 @@
+@import "../../variables";
+
+.Menu {
+  display: flex;
+  width: 300px;
+
+  .items {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+}

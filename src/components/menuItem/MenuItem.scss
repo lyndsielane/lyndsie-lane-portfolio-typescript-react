@@ -1,0 +1,9 @@
+.MenuItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
