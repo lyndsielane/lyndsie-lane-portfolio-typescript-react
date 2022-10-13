@@ -1,4 +1,3 @@
-import React from "react";
 import MenuItem from "../menuItem/MenuItem";
 import "./Menu.scss";
 
@@ -9,6 +8,7 @@ function Menu() {
         <MenuItem label="Home" href="/" />
         <MenuItem label="About" href="/about" />
         <MenuItem label="Portfolio" href="/portfolio" />
+        <MenuItem label="Store" href="/store" />
         <MenuItem label="Contact" href="/contact" />
       </div>
     </div>
