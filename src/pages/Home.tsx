@@ -1,13 +1,7 @@
-import React from "react";
 import "./Home.scss";
-import Header from "../components/header/Header";
 
 function Home() {
-  return (
-    <div className="Home">
-      <Header />
-    </div>
-  );
+  return <div className="Home">This is my home page</div>;
 }
 
 export default Home;

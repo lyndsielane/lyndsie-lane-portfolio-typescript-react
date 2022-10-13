@@ -1,4 +1,3 @@
-import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.scss";
 import Home from "./pages/Home";
@@ -7,6 +6,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import About from "./pages/About";
 import Portfolio from "./pages/Portfolio";
 import Contact from "./pages/Contact";
+import Header from "./components/header/Header";
+import Footer from "./components/footer/Footer";
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
@@ -14,12 +15,16 @@ const root = ReactDOM.createRoot(
 
 root.render(
   <BrowserRouter>
-    <Routes>
-      <Route path="*" element={<Home />} />
-      <Route path="/about" element={<About />} />
-      <Route path="/portfolio" element={<Portfolio />} />
-      <Route path="/contact" element={<Contact />} />
-    </Routes>
+    <Header />
+    <div className="container">
+      <Routes>
+        <Route path="*" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/portfolio" element={<Portfolio />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
+    </div>
+    <Footer />
   </BrowserRouter>
 );
 
