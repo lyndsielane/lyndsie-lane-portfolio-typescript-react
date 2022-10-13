@@ -3,16 +3,14 @@
 .Header {
   display: flex;
   justify-content: space-around;
-  height: 50px;
-  width: 100%;
-  background-color: $primary-color;
-  color: $secondary-color;
+  height: 70px;
+  background-color: #4A5667;
 
   .name {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    color: yellow;
+    color: #E0C87F;
     text-decoration: none;
   }
 }

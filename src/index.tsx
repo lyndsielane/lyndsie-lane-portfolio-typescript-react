@@ -8,7 +8,6 @@ import Portfolio from "./pages/Portfolio";
 import Contact from "./pages/Contact";
 import Header from "./components/header/Header";
 import Footer from "./components/footer/Footer";
-import Store from "./pages/Store";
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
@@ -22,7 +21,6 @@ root.render(
         <Route path="*" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/portfolio" element={<Portfolio />} />
-        <Route path="/store" element={<Store />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
     </div>
