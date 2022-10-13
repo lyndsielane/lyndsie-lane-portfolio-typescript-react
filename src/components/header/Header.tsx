@@ -1,10 +1,13 @@
 import "./Header.scss";
+import { Link } from "react-router-dom";
 import Menu from "../menu/Menu";
 
 function Header() {
   return (
     <div className="Header">
-      <div className="name">Lyndsie Lane</div>
+      <Link className="name" to="/">
+        Lyndsie Lane
+      </Link>
       <Menu />
     </div>
   );
