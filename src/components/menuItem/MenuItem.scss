@@ -5,5 +5,10 @@
   flex-direction: column;
   justify-content: space-evenly;
   text-decoration: none;
-  color: $secondary-color;
+  color: $font-color;
+
+  &.active {
+    border-bottom: 2px solid $accent-color;
+    color: $accent-color;
+  }
 }

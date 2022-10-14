@@ -2,7 +2,10 @@
 
 body {
   font: 100% $font-stack;
-  color: $primary-color;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  color: $font-color;
+  background-color: $primary-color;
   margin: 0;
   padding: 0;
   display: flex;
@@ -16,8 +19,13 @@ body {
 
     .container {
       flex: 1;
-      background-color: #2B2D34;
-      color: $secondary-color;
+      display: flex;
+      justify-content: space-around;
+
+      .content {
+        padding: 20px;
+        width: 50%;
+      }
     }
   }
 }

@@ -1,16 +1,19 @@
 @import "../../variables";
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@100;400&display=swap");
 
 .Header {
   display: flex;
   justify-content: space-around;
   height: 70px;
-  background-color: #4A5667;
+  background-color: $secondary-color;
 
   .name {
+    font-family: "Dancing Script", sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    color: #E0C87F;
+    color: $accent-color;
     text-decoration: none;
+    font-size: 2.75rem;
   }
 }
