@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/lyndsielane/lyndsie-lane-portfolio-typescript-react/static/css/main.7a68c082.css",
+    "main.js": "/lyndsielane/lyndsie-lane-portfolio-typescript-react/static/js/main.5dc5443c.js",
+    "static/js/787.ab71d913.chunk.js": "/lyndsielane/lyndsie-lane-portfolio-typescript-react/static/js/787.ab71d913.chunk.js",
+    "index.html": "/lyndsielane/lyndsie-lane-portfolio-typescript-react/index.html",
+    "main.7a68c082.css.map": "/lyndsielane/lyndsie-lane-portfolio-typescript-react/static/css/main.7a68c082.css.map",
+    "main.5dc5443c.js.map": "/lyndsielane/lyndsie-lane-portfolio-typescript-react/static/js/main.5dc5443c.js.map",
+    "787.ab71d913.chunk.js.map": "/lyndsielane/lyndsie-lane-portfolio-typescript-react/static/js/787.ab71d913.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7a68c082.css",
+    "static/js/main.5dc5443c.js"
+  ]
+}
