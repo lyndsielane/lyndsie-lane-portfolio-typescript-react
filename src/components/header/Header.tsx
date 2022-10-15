@@ -1,6 +1,6 @@
 import "./Header.scss";
 import { Link } from "react-router-dom";
-import Menu from "../menu/Menu";
+import { Menu } from "../";
 
 function Header() {
   return (

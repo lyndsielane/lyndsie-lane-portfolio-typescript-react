@@ -10,8 +10,7 @@
   .name {
     font-family: "Dancing Script", sans-serif;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    align-items: center;
     color: $accent-color;
     text-decoration: none;
     font-size: 2.75rem;

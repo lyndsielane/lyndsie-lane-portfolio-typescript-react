@@ -1,4 +1,4 @@
-import MenuItem from "../menuItem/MenuItem";
+import { MenuItem } from "../";
 import "./Menu.scss";
 
 function Menu() {
