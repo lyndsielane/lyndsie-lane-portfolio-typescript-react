@@ -1,3 +1,7 @@
+[![Deploy web app to Azure Static Web Apps](https://github.com/lyndsielane/lyndsie-lane-portfolio-typescript-react/actions/workflows/azure-staticwebapp.yml/badge.svg?branch=main)](https://github.com/lyndsielane/lyndsie-lane-portfolio-typescript-react/actions/workflows/azure-staticwebapp.yml)
+
+---
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
