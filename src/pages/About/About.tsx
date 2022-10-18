@@ -3,7 +3,7 @@ import "./About.scss";
 function About() {
   return (
     <div className="About">
-      <img src="https://dummyimage.com/200x200/545f66/d0f4ea" />
+      <img src="https://dummyimage.com/200x200/545f66/d0f4ea" alt="Lyndsie Lane" />
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Volutpat lacus
