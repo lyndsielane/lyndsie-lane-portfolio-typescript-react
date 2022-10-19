@@ -1,9 +1,10 @@
 import "./Home.scss";
+import homePhoto from "src/pages/Home/home photo.jpg";
 
 function Home() {
   return (
-    <div className="Home">
-      <img src="public/home photo.jpg" alt="home photo"></img>
+    <div>
+      <img src={homePhoto} alt="home photo"></img>
     </div>
   );
 }
