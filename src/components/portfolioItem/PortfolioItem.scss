@@ -28,3 +28,9 @@ $border-radius: 5%;
     }
   }
 }
+
+@media screen and (max-width: 1300px) {
+  .PortfolioItem {
+    margin-bottom: 30px;
+  }
+}
