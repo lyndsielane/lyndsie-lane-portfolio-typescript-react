@@ -9,19 +9,20 @@ function Menu() {
   const [showMenu, setShowMenu] = useState(!isSmallScreen);
   const onMenuClickHandler = () => setShowMenu(!showMenu);
   const onMenuItemsClickHandler = () => setShowMenu(!isSmallScreen);
-  const resizeHandler = () => {
-    setWindowWidth(window.innerWidth);
-    setIsSmallScreen(windowWidth <= 640);
-    setShowMenu(!isSmallScreen);
-  };
 
   useEffect(() => {
+    const resizeHandler = () => {
+      setWindowWidth(window.innerWidth);
+      setIsSmallScreen(windowWidth <= 640);
+      setShowMenu(!isSmallScreen);
+    };
+
     window.addEventListener('resize', resizeHandler);
 
     return () => {
       window.removeEventListener('resize', resizeHandler);
     };
-  }, [windowWidth]);
+  }, [windowWidth, isSmallScreen, setWindowWidth, setIsSmallScreen, setShowMenu]);
 
   return (
     <div className="Menu">
