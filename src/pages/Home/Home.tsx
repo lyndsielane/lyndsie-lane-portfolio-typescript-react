@@ -4,7 +4,7 @@ import homePhoto from "src/pages/Home/home photo.jpg";
 function Home() {
   return (
     <div>
-      <img src={homePhoto} alt="home photo"></img>
+      <img src={require(homePhoto)} alt="home photo"></img>
     </div>
   );
 }
