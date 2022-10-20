@@ -1,7 +1,6 @@
-import Header from "./header/Header";
 import Footer from "./footer/Footer";
-import Menu from "./menu/Menu";
-import MenuItem from "./menuItem/MenuItem";
+import NavBar from "./navBar/NavBar";
+import NavBarItem from "./navBarItem/NavBarItem";
 import PortfolioItem from "./portfolioItem/PortfolioItem";
 
-export { Header, Footer, Menu, MenuItem, PortfolioItem };
+export { Footer, NavBar, NavBarItem, PortfolioItem };
