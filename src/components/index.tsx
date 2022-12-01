@@ -2,5 +2,6 @@ import Footer from "./footer/Footer";
 import NavBar from "./navBar/NavBar";
 import NavBarItem from "./navBarItem/NavBarItem";
 import PortfolioItem from "./portfolioItem/PortfolioItem";
+import ExperienceItem from "./experienceItem/ExperienceItem";
 
-export { Footer, NavBar, NavBarItem, PortfolioItem };
+export { Footer, NavBar, NavBarItem, PortfolioItem, ExperienceItem };

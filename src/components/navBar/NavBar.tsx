@@ -1,5 +1,6 @@
 import { NavBarItem, Footer } from "../";
 import "./NavBar.scss";
+import { LyndsieLane } from "../../assets/images";
 //import { FiMenu } from "react-icons/fi";
 //import { useState, useEffect } from "react";
 
@@ -29,7 +30,7 @@ function NavBar() {
   return (
     <div className="NavBar">
       <div className="topSection">
-        <img src="https://dummyimage.com/150x150/545f66/d0f4ea" alt="Lyndsie Lane" />
+        <img src={LyndsieLane} alt="Lyndsie Lane" />
         {/*<FiMenu className="menuIcon" onClick={ onMenuClickHandler } />*/}
         <div className="items">
           <NavBarItem label="ABOUT" href="/" isHome={true} />
