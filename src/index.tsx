@@ -2,8 +2,8 @@ import ReactDOM from "react-dom/client";
 import "./index.scss";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { Header, Footer } from "./components";
-import { Home, About, Portfolio, Contact } from "./pages";
+import { NavBar } from "./components";
+import { About, Education, Experience, Interests, Portfolio, Skills } from "./pages";
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
@@ -11,18 +11,19 @@ const root = ReactDOM.createRoot(
 
 root.render(
   <BrowserRouter>
-    <Header />
     <div className="container">
+      <NavBar />
       <div className="content">
         <Routes>
-          <Route path="*" element={<Home />} />
-          <Route path="/about" element={<About />} />
+          <Route path="*" element={<About />} />
+          <Route path="/education" element={<Education />} />
+          <Route path="/experience" element={<Experience />} />
+          <Route path="/interests" element={<Interests />} />
           <Route path="/portfolio" element={<Portfolio />} />
-          <Route path="/contact" element={<Contact />} />
+          <Route path="/skills" element={<Skills />} />
         </Routes>
       </div>
     </div>
-    <Footer />
   </BrowserRouter>
 );
 

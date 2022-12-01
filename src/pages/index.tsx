@@ -1,6 +1,8 @@
-import Home from "./Home/Home";
 import About from "./About/About";
+import Education from "./Education/Education";
+import Experience from "./Experience/Experience";
+import Interests from "./Interests/Interests";
 import Portfolio from "./Portfolio/Portfolio";
-import Contact from "./Contact/Contact";
+import Skills from "./Skills/Skills";
 
-export { Home, About, Portfolio, Contact };
+export { About, Education, Experience, Interests, Portfolio, Skills };
