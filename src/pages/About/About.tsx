@@ -3,33 +3,25 @@ import "./About.scss";
 function About() {
   return (
     <div className="About">
-      <span className="name firstName">Lyndsie</span><span className="name lastName">Lane</span>
+      <span className="name firstName">Lyndsie</span>
+      <span className="name lastName">Lane</span>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Volutpat lacus
-        laoreet non curabitur gravida arcu. Mi quis hendrerit dolor magna eget.
-        Dignissim cras tincidunt lobortis feugiat vivamus. Sagittis eu volutpat
-        odio facilisis mauris sit amet massa vitae. In fermentum posuere urna
-        nec tincidunt praesent semper. Ullamcorper dignissim cras tincidunt
-        lobortis feugiat. Netus et malesuada fames ac turpis egestas integer
-        eget. Mattis rhoncus urna neque viverra justo nec ultrices. Sem
-        fringilla ut morbi tincidunt augue. Arcu bibendum at varius vel pharetra
-        vel. Dictumst quisque sagittis purus sit. Amet commodo nulla facilisi
-        nullam vehicula. Sed faucibus turpis in eu mi. Faucibus ornare
-        suspendisse sed nisi lacus sed viverra tellus in. Auctor eu augue ut
-        lectus arcu bibendum at varius vel. Vitae nunc sed velit dignissim.
+        Hello, I'm Lyndsie Lane, a full-stack developer with a passion for
+        front-end and the user experience. I have a background in customer
+        service and management. I have implemented new services and trained
+        employees while streamlining new business practices. I am well versed in
+        deescalation and ensuring customers are cared for throughout any
+        processes involved in fulfilling their needs. My experience has given me
+        detailed views of business from the customer, employee, and business
+        standpoint.
       </p>
       <p>
-        Aenean euismod elementum nisi quis eleifend quam adipiscing. Volutpat
-        diam ut venenatis tellus. Ullamcorper dignissim cras tincidunt lobortis
-        feugiat vivamus. Diam in arcu cursus euismod. Dui accumsan sit amet
-        nulla facilisi morbi. Eu feugiat pretium nibh ipsum consequat nisl vel
-        pretium lectus. Imperdiet dui accumsan sit amet nulla. Nunc mi ipsum
-        faucibus vitae aliquet nec ullamcorper sit amet. Scelerisque varius
-        morbi enim nunc faucibus a pellentesque sit amet. Semper eget duis at
-        tellus at urna condimentum. Quis eleifend quam adipiscing vitae proin
-        sagittis nisl rhoncus mattis. Egestas pretium aenean pharetra magna ac.
-        Nec feugiat in fermentum posuere urna nec tincidunt praesent semper.
+        After studying coding at Georgia Tech, I am moving into a coding career
+        and know that my past experience will bring value into this new career
+        path. My creativity, dedication, and hard work combined with bountiful
+        experience make me a great fit for any application or website
+        development. I look forward to centering my work on ensuring a well
+        planned and executed customer first experience.
       </p>
     </div>
   );

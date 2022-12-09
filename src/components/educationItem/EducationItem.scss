@@ -1,6 +1,6 @@
 @import "../../variables.scss";
 
-.ExperienceItem {
+.EducationItem {
   display: flex;
   flex-direction: column;
 
@@ -8,7 +8,7 @@
     display: flex;
     justify-content: space-between;
 
-    .companyName {
+    .schoolName {
       font-size: 22px;
       font-weight: bold;
       color: $secondary-color;
