@@ -1,4 +1,3 @@
-import SkillsItem from "../../components/skillsItem/SkillsItem";
 import "./Skills.scss";
 import { html } from "../../assets/images";
 import { css } from "../../assets/images";
